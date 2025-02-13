@@ -1,0 +1,430 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 13px;
+    width: 99%;
+    height: 40px;
+    background-color: rgb(68, 61, 61);
+    border-bottom: 10px solid #ffffff;
+    position:fixed;
+}
+
+.kanan{
+    font-family: 'Bree Serif', serif;
+}
+
+#nama{
+    color: rgb(236, 223, 223);
+    font-size: 50px;
+}
+
+.kiri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nuosu SIL', serif;
+}
+
+
+.kiri>li{
+    list-style-type: none;
+    padding: 15px;
+} 
+
+.kiri>li:hover{
+    background-color: #8f989c;
+}
+
+.kiri>li>a{
+    color: rgb(245, 244, 244);
+    font-size: 1.2rem;
+}
+
+.judulutama{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0rem 2rem 0rem;
+    background-color: #9b9ba0;
+    animation: transisi3 2s ease-in;
+}
+
+#judul{
+    font-size: 3rem;
+}
+
+#judul:hover{
+    text-decoration: underline;
+}
+
+.macam2furnitureMeja{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0rem 4rem 0rem;
+    background-color: rgba(192, 181, 181, 0.486);    
+    font-family: 'Sriracha', cursive;
+    border-bottom: 10px solid #ffffff;
+}
+
+
+.furniture1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    animation: transisi3 2s ease-in-out;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+
+}
+
+
+
+.meja1, .meja2, .meja3, .meja4{
+    font-family: 'Joan', serif;
+        width: 400px;
+        height: 300px;
+        background: #ffffff;
+        margin: 0 20px;
+        border-radius: 5px;
+        box-shadow: #f6fcff;
+}
+
+
+.macam2furnitureKursi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0rem 4rem 0rem;
+    background-color: #767a81;   
+    font-family: 'Sriracha', cursive;
+    border-bottom: 10px solid #ffffff;
+}
+
+
+.furniture2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    animation: transisi3 2s ease-in-out;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}
+
+
+
+.kursi1, .kursi2, .kursi3, .kursi4{
+    font-family: 'Joan', serif;
+        width: 400px;
+        height: 300px;
+        background: #ffffff;
+        margin: 0 20px;
+        border-radius: 5px;
+        box-shadow: #f6fcff;
+}
+
+
+.macam2furnitureLemari{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0rem 4rem 0rem;
+    background-color: rgba(192, 181, 181, 0.486);    
+    font-family: 'Sriracha', cursive;
+    border-bottom: 10px solid #ffffff;
+}
+
+
+.furniture3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    animation: transisi3 2s ease-in-out;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}
+
+
+
+.lemari1, .lemari2, .lemari3, .lemari4{
+    font-family: 'Joan', serif;
+        width: 400px;
+        height: 300px;
+        background: #ffffff;
+        margin: 0 20px;
+        border-radius: 5px;
+        box-shadow: #f6fcff;
+}
+
+
+
+.macam2furnitureHiasan{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0rem 4rem 0rem;
+    background-color: #767a81;   
+    font-family: 'Sriracha', cursive;
+    border-bottom: 10px solid #ffffff;
+}
+
+
+.furniture4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    animation: transisi3 2s ease-in-out;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}
+
+
+
+.hiasan1, .hiasan2, .hiasan3, .hiasan4{
+    font-family: 'Joan', serif;
+        width: 400px;
+        height: 300px;
+        background: #ffffff;
+        border-radius: 5px;
+        box-shadow: #f6fcff;
+
+}
+
+.furnit1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#pesan{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: black;
+    color: ivory;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+#pesan:hover{
+    text-decoration: underline;
+    background-color: #b6b6b6;
+}
+
+.Footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #464649;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+    box-sizing: border-box;
+}
+
+#nama2{
+    font-size: medium;
+    margin-top: auto;
+    font-family: 'Sriracha', cursive;
+    margin-left: 1rem;
+    color: #ffffff;
+}
+
+.instagram1, .github1, .linkedin1{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    
+}
+
+#instagram{
+    margin-right: 3rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+ 
+}
+
+#github{
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    
+}
+
+#linkedin{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+  
+}
+
+#ig, #git, #link{
+    color: #ffffff;
+}
+
+
+
+@keyframes transisi1{
+    0%{
+        margin-bottom: -40px;
+    }
+    50%{
+        letter-spacing: 5px;
+        margin-bottom: -40px;
+    }
+    100%{
+        letter-spacing: 2px;
+        margin-bottom: -40px;
+    }
+}
+
+
+@keyframes transisi2{
+    from{
+        margin-right: 100%;
+    }
+    to{
+        margin-right: 0%;
+    }
+
+}
+
+
+@keyframes transisi3{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+@media only screen and (max-width:1400px){
+
+    #nama{
+        color: rgb(236, 223, 223);
+        font-size: 45px;
+    }
+
+    .kiri>li>a{
+        color: rgb(245, 244, 244);
+        font-size: 1.1rem;
+    }
+    
+    #judul{
+        font-size: 3rem;
+    }
+
+    .furniture1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: transisi3 2s ease-in-out;
+        padding: 2rem 0rem;
+    
+    }
+
+    .meja1, .meja2, .meja3, .meja4{
+            width: 400px;
+            height: 300px;
+            margin: 8rem 0rem;
+            border-radius: 5px;
+            box-shadow: #f6fcff;
+    } 
+
+    .furniture2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: transisi3 2s ease-in-out;
+        padding: 2rem 0rem;
+    
+    }
+
+    .kursi1, .kursi2, .kursi3, .kursi4{
+        width: 400px;
+            height: 300px;
+            margin: 8rem 0rem;
+            border-radius: 5px;
+            box-shadow: #f6fcff;
+    }
+
+
+    .furniture3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: transisi3 2s ease-in-out;
+        padding: 2rem 0rem;
+    
+    }
+
+    .lemari1, .lemari2, .lemari3, .lemari4{
+        width: 400px;
+            height: 300px;
+            margin: 8rem 0rem;
+            border-radius: 5px;
+            box-shadow: #f6fcff;
+    }
+
+
+
+    .furniture4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: transisi3 2s ease-in-out;
+        padding: 2rem 0rem;
+    
+    }
+
+    .hiasan1, .hiasan2, .hiasan3, .hiasan4{
+        width: 400px;
+            height: 300px;
+            margin: 8rem 0rem;
+            border-radius: 5px;
+            box-shadow: #f6fcff;
+    }
+
+}
+
+
+@media only screen and (max-width:885px){
+
+    #nama{
+        color: rgb(236, 223, 223);
+        font-size: 40px;
+    }
+
+    .kiri>li>a{
+        color: rgb(245, 244, 244);
+        font-size: 1rem;
+    }
+    
+    #judul{
+        font-size: 2rem;
+    }
+
+
+
+}
